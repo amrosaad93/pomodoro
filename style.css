@@ -1,0 +1,63 @@
+body {
+  background-color: #93c8dd;
+}
+h1 {
+  color:#07575B;
+}
+#timer {
+  color: #07575B;
+}
+#status {
+  font-size:50px; 
+  color: #07575B;
+  margin-top:100px; 
+}
+.button {
+  width: 100px;
+  height: 40px;
+  margin-bottom:50px;
+  background-color:#07575B;  
+  color: #C4DFD6;
+  border-radius: 20px;
+  border: solid white 4px;
+}
+.button:focus {
+  outline:0;
+}
+.mainBox {
+  width:300px;
+  background-color:#003B46;
+  border-radius: 20px;
+  border: solid #C4DFD6 4px;
+}
+#editSession {
+  float:right;
+}
+#editBreak {
+  float:left;
+}
+#contain{
+  width:650px;
+  margin:auto;
+  margin-top:50px;
+  margin-bottom:300px;
+}
+.editbtn {
+  width:50px;
+  background-color:#C4DFD6; 
+  border-radius: 20px;
+  border: solid white 4px;
+}
+.editbtn:focus {
+  outline:0;
+}
+.minus {
+  margin-bottom: 10px;
+}
+p{
+  color:#C4DFD6;
+  font-size: 40px;
+}
+.adjust{
+  color:#003B46;
+}
