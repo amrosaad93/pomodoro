@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Pomodoro Timer - by Amro</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <div class= "container-fluid">
+          <h1 class = "text-center">Pomodoro Timer</h1>
+          
+          <div = id="contain">
+           <div id ="editBreak" class = "text-center mainBox">
+            <p>Break Time</p>
+            <button id="plusB" class="editbtn">+</button>
+            <p id="breakTime">5</p>
+            <button id="minusB" class="editbtn minus">-</button>
+              
+          </div>
+          <div id ="editSession" class = "text-center mainBox">
+            <p>Session Time</p>
+            <button id="plus" class="editbtn">+</button>
+            <p id="startTimer">25</p>
+            <button id="minus" class="editbtn minus">-</button>
+          </div> 
+          </div>
+            
+            
+        <div id="time" class = "text-center">
+          <p id = "status">Session!</p>
+          <p id ="timer" class="timer">25:00</p>
+          <button id="start" class="button">Start</button>
+          <button id="reset" class="button">Reset</button>
+          
+          </div>
+        </div>
+        
+        
+          
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js" integrity="sha512-QAV866KcCo2YSgj8D7BW+Zn3Fe5wVKTWwzKtWy8mkW+tePcJL7JYilvdfrBFQcdz4ODD48GpIPnhTp9UDI37uw==" crossorigin="anonymous"></script>
+        <script src="script.js" async defer></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </body>
+</html>
